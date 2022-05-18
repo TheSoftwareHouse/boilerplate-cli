@@ -1,0 +1,13 @@
+.idea
+.vscode
+node_modules
+.env
+.DS_Store
+.scannerwork
+coverage
+*.log
+bin
+docker/dev/datastore
+config/all.override.yaml
+tmp
+/.npmrc
