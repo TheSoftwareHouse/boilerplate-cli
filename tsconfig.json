@@ -1,0 +1,22 @@
+{
+  "extends": "@tsconfig/node14/tsconfig.json",
+  "compilerOptions": {
+    "target": "es2020",
+    "types": ["node", "jest"],
+    "module": "commonjs",
+    "declaration": false,
+    "strict": true,
+    "allowSyntheticDefaultImports": false,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "strictPropertyInitialization": false,
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "outDir": "bin",
+    "typeRoots": ["./node_modules/@types"],
+    "resolveJsonModule": true,
+    "baseUrl": "src"
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "bin/**"]
+}
